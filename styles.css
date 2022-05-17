@@ -32,17 +32,21 @@ header ul{
     list-style: none;
 }
 
-header ul li{
+header ul li a{
     margin-left: 25px;
     border-bottom: solid transparent 1px;
     color: gray;
     font-family: cursive;
 }
-header ul li:hover{
+header ul li a:hover{
     border-bottom: solid #87119A 1px;
     color: #87119A;
     cursor: pointer;
     font-weight: 600;
+}
+
+a{
+    text-decoration: none;
 }
 
 .section-1, .section-2, .section-3, .section-4{
@@ -51,9 +55,6 @@ header ul li:hover{
     position: relative;
 }
 
-/* .section-1{
-    margin-top: 100px;
-} */
 
 h2{
     padding: 5px 10px;
